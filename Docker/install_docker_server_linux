@@ -1,4 +1,0 @@
-#!/bin/sh
-cd ..
-docker build . --tag kursovaos -f docker/Dockerfile
-docker run --name=kursovaos -dp 8080:8080 kursovaos
